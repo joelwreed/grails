@@ -18,3 +18,7 @@ if( !b.validate() ) {
 h2. Description
 
 The @validate@ method will validate a domain class based on its defined [constraints|guide:constraints]. The errors will be stored within the [errors|domainClasses] object.
+
+Parameters:
+
+* @deepValidate@ (optional) - Set to @false@ if cascade validation should be skipped
